@@ -1,0 +1,9 @@
+[Unit]
+Description=Get weather information and forecast in your locality
+
+[Service]
+WorkingDirectory=/home/vagrant/Documents/week10
+ExecStart=/usr/bin/env bash ./wttrScript
+
+[Install]
+WantedBy=graphical.target

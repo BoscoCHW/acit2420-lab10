@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+ts=$(date '+%s')
+curl wttr.in > ./weather.${ts}
